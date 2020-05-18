@@ -6,44 +6,44 @@ body{
     box-sizing:border-box;
     user-select:none;
     font-family: 'Poppins', sans-serif;
-    }
-    body{
+}
+body{
     display:flex;
     justify-content:center;
     align-items:center;
     height:100vh;
     text-align:center;
-    }
-    .center ul{
+}
+.center ul{
     list-style:none;
     position:relative;
     display:inline-block;
-    }
-    .center ul li:hover{
+}
+.center ul li:hover{
     background:#1a6565;
-    }
-    .center ul li i{
+}
+.center ul li i{
     color:#eee;
     font-size:22px;
     opacity:0;
     transition:opacity 1.7s;
-    }
-    .center ul:hover li i{
+}
+.center ul:hover li i{
     opacity:1;
-    }
-    .center ul li:nth-child(1){
+}
+.center ul li:nth-child(1){
     border-bottom-left-radius:25px;
     border-top-left-radius:25px;
-    }
-    .center ul li:nth-child(5){
+}
+.center ul li:nth-child(5){
     border-bottom-right-radius:25px;
     border-top-right-radius:25px;
-    }
-    .center ul:hover li{
+}
+.center ul:hover li{
     border-radius:50px;
     margin:0 3px;
-    }
-    .center ul .text{
+}
+.center ul .text{
     position:absolute;
     top:0; left:0; right:0;
     background:#1f7a7a;
@@ -52,12 +52,12 @@ body{
     border-radius:50px;
     font-size:22px;
     pointer-events:none;
-    }
-    .center ul:hover .text{
+}
+.center ul:hover .text{
     opacity:0;
     transition:opacity .5s .125s ease-out;
-    }
-    .center ul li{
+}
+.center ul li{
     display:inline-block;
     width:50px;
     height:50px;
@@ -67,7 +67,7 @@ body{
     cursor:pointer;
     border-radius:0;
     transition: background-color .5s ease-out,
-                       border- radius .5s .25s ease-out,
-                       margin .5s .25s ease-out;
+                border- radius .5s .25s ease-out,
+                margin .5s .25s ease-out;
                        
-    }
+}
